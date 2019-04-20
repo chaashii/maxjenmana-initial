@@ -1,0 +1,43 @@
+[Wed Apr 17 20:37:33.381075 2019] [ssl:warn] [pid 2760:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 20:37:33.446826 2019] [ssl:warn] [pid 2760:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 20:37:33.497977 2019] [mpm_winnt:notice] [pid 2760:tid 580] AH00455: Apache/2.4.39 (Win64) OpenSSL/1.1.1b PHP/7.3.4 configured -- resuming normal operations
+[Wed Apr 17 20:37:33.497977 2019] [mpm_winnt:notice] [pid 2760:tid 580] AH00456: Apache Lounge VC15 Server built: Mar 28 2019 11:59:33
+[Wed Apr 17 20:37:33.498974 2019] [core:notice] [pid 2760:tid 580] AH00094: Command line: 'e:\\xamp\\apache\\bin\\httpd.exe -d E:/xamp/apache'
+[Wed Apr 17 20:37:33.513622 2019] [mpm_winnt:notice] [pid 2760:tid 580] AH00418: Parent: Created child process 1460
+[Wed Apr 17 20:37:34.081281 2019] [ssl:warn] [pid 1460:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 20:37:34.117132 2019] [ssl:warn] [pid 1460:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 20:37:34.152215 2019] [mpm_winnt:notice] [pid 1460:tid 624] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 17 20:52:17.341933 2019] [ssl:warn] [pid 1932:tid 188] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 20:52:17.388720 2019] [ssl:warn] [pid 1932:tid 188] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 20:52:17.411611 2019] [mpm_winnt:notice] [pid 1932:tid 188] AH00455: Apache/2.4.39 (Win64) OpenSSL/1.1.1b PHP/7.3.4 configured -- resuming normal operations
+[Wed Apr 17 20:52:17.411611 2019] [mpm_winnt:notice] [pid 1932:tid 188] AH00456: Apache Lounge VC15 Server built: Mar 28 2019 11:59:33
+[Wed Apr 17 20:52:17.411611 2019] [core:notice] [pid 1932:tid 188] AH00094: Command line: 'E:\\xamp\\apache\\bin\\httpd.exe -d E:/xamp/apache'
+[Wed Apr 17 20:52:17.425463 2019] [mpm_winnt:notice] [pid 1932:tid 188] AH00418: Parent: Created child process 4612
+[Wed Apr 17 20:52:17.986737 2019] [ssl:warn] [pid 4612:tid 524] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 20:52:18.047324 2019] [ssl:warn] [pid 4612:tid 524] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Apr 17 20:52:18.103452 2019] [mpm_winnt:notice] [pid 4612:tid 524] AH00354: Child: Starting 150 worker threads.
+[Wed Apr 17 21:11:34.933110 2019] [php7:warn] [pid 4612:tid 1908] [client 127.0.0.1:53873] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in E:\\xamp\\apps\\wordpress\\htdocs\\wp-includes\\media.php on line 2948, referer: http://127.0.0.1/wordpress/wp-admin/customize.php?url=http%3A%2F%2F127.0.0.1%2Fwordpress%2F2019%2F04%2F17%2Fhello-world%2F&theme=travel-minimalist-blogger&return=http%3A%2F%2F127.0.0.1%2Fwordpress%2F2019%2F04%2F17%2Fhello-world%2F
+[Wed Apr 17 21:11:34.933110 2019] [php7:warn] [pid 4612:tid 1908] [client 127.0.0.1:53873] PHP Warning:  imageantialias() expects parameter 1 to be resource, bool given in E:\\xamp\\apps\\wordpress\\htdocs\\wp-includes\\class-wp-image-editor-gd.php on line 291, referer: http://127.0.0.1/wordpress/wp-admin/customize.php?url=http%3A%2F%2F127.0.0.1%2Fwordpress%2F2019%2F04%2F17%2Fhello-world%2F&theme=travel-minimalist-blogger&return=http%3A%2F%2F127.0.0.1%2Fwordpress%2F2019%2F04%2F17%2Fhello-world%2F
+[Wed Apr 17 21:11:34.933110 2019] [php7:warn] [pid 4612:tid 1908] [client 127.0.0.1:53873] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, bool given in E:\\xamp\\apps\\wordpress\\htdocs\\wp-includes\\class-wp-image-editor-gd.php on line 294, referer: http://127.0.0.1/wordpress/wp-admin/customize.php?url=http%3A%2F%2F127.0.0.1%2Fwordpress%2F2019%2F04%2F17%2Fhello-world%2F&theme=travel-minimalist-blogger&return=http%3A%2F%2F127.0.0.1%2Fwordpress%2F2019%2F04%2F17%2Fhello-world%2F
+[Sat Apr 20 13:11:35.758290 2019] [ssl:warn] [pid 3356:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 20 13:11:35.818814 2019] [core:warn] [pid 3356:tid 516] AH00098: pid file E:/xamp/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 20 13:11:35.827342 2019] [ssl:warn] [pid 3356:tid 516] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 20 13:11:36.221156 2019] [mpm_winnt:notice] [pid 3356:tid 516] AH00455: Apache/2.4.39 (Win64) OpenSSL/1.1.1b PHP/7.3.4 configured -- resuming normal operations
+[Sat Apr 20 13:11:36.221156 2019] [mpm_winnt:notice] [pid 3356:tid 516] AH00456: Apache Lounge VC15 Server built: Mar 28 2019 11:59:33
+[Sat Apr 20 13:11:36.221156 2019] [core:notice] [pid 3356:tid 516] AH00094: Command line: 'e:\\xamp\\apache\\bin\\httpd.exe -d E:/xamp/apache'
+[Sat Apr 20 13:11:36.231138 2019] [mpm_winnt:notice] [pid 3356:tid 516] AH00418: Parent: Created child process 10896
+[Sat Apr 20 13:11:36.951357 2019] [ssl:warn] [pid 10896:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 20 13:11:37.001207 2019] [ssl:warn] [pid 10896:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Apr 20 13:11:37.060960 2019] [mpm_winnt:notice] [pid 10896:tid 576] AH00354: Child: Starting 150 worker threads.
+'--help' is not recognized as an internal or external command,
+operable program or batch file.
+'--help' is not recognized as an internal or external command,
+operable program or batch file.
+'--help' is not recognized as an internal or external command,
+operable program or batch file.
+'--help' is not recognized as an internal or external command,
+operable program or batch file.
+'--help' is not recognized as an internal or external command,
+operable program or batch file.
+'--help' is not recognized as an internal or external command,
+operable program or batch file.
